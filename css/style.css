@@ -1,15 +1,36 @@
 header {
     background-color: #242633;
-  }
-  header #menu {
-    display: flex;
+    text-align: center;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     text-align: center;
   }
-  header #logo {
+  header #menu {
+    color: #FFF;
+    font-family: Bigelow Rules; 
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10141B;
+
+    padding: 10px;
+  }
+  header img {
+    width: 215.309px;
+    height: 80px;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+  }
+  .menu1{
+    display: flex;
+    color: white;
+    font-weight: 700;
+  
+    
   }
   

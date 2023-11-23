@@ -1,14 +1,36 @@
-header{
-    background-color: #242633;
-    #menu{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    #logo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+$color_1: #FFF;
+$color_2: white;
+$font-family_1: Bigelow Rules;
+$background-color_1: #242633;
+$background-color_2: #10141B;
+
+header {
+	background-color: $background-color_1;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	#menu {
+		color: $color_1;
+		font-family: $font-family_1;
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+		align-items: center;
+		background-color: $background-color_2;
+		padding: 10px;
+	}
+	img {
+		width: 215.309px;
+		height: 80px;
+		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.menu1 {
+	display: flex;
+	color: $color_2;
+	font-weight: 700;
 }
