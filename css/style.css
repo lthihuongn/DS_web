@@ -35,6 +35,11 @@ header {
 
   body{
     background-image: url('../images/Ressources/Ressources/background.webp');
+    color: #FFF;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     margin: 0;
   }
 
@@ -43,7 +48,7 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding: 50px;
+    padding: 100px;
   }
 
   #gauche{
@@ -71,12 +76,40 @@ header {
     justify-content: center;
  
 }
+.rectangle{
+    padding: 50px;
+    
+    text-align: center;
+    font-family: Sofia Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
   #droite{
     background-image: url('../images/Ressources/Ressources/losange.webp');
-    margin-right: 20px;
+    
     background-size:100%;
     background-position: center;
     background-repeat: no-repeat;
+
+    position: relative;
+    width: 700px;
+    height: 900px;
+
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid #433C87;
+
+
+    
+  }
+
+  #bouton{
+    margin: 150px;
   }
   
