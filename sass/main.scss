@@ -5,6 +5,7 @@ $font-family_2: Sofia Sans;
 $background-color_1: #242633;
 $background-color_2: #10141B;
 $background-color_3: #433C87;
+$background-color_4: black;
 
 header {
 	background-color: $background-color_1;
@@ -90,11 +91,26 @@ body {
 	position: relative;
 	width: 700px;
 	height: 900px;
-	justify-content: center;
+	w justify-content: center;
 	align-items: center;
 	text-align: center;
 	border: 2px solid #433C87;
 }
 #bouton {
 	margin: 150px;
+}
+footer {
+	background-color: $background-color_4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+#bas {
+	border: 2px solid white;
+	margin: 20px;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	width: 90%;
 }

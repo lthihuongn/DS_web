@@ -96,7 +96,7 @@ header {
 
     position: relative;
     width: 700px;
-    height: 900px;
+    height: 900px;w
 
     
     justify-content: center;
@@ -113,3 +113,22 @@ header {
     margin: 150px;
   }
   
+
+
+  footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+  }
+  #bas{
+    border: 2px solid white;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
+    
+  }
