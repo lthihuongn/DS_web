@@ -1,6 +1,6 @@
 $color_1: #FFF;
 $color_2: white;
-$font-family_1: Bigelow Rules;
+$font-family_1: 'Bigelow Rule' sans-serif;
 $font-family_2: Sofia Sans;
 $background-color_1: #242633;
 $background-color_2: #10141B;
@@ -10,26 +10,27 @@ $background-color_4: black;
 header {
 	background-color: $background-color_1;
 	text-align: center;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 	#menu {
-		color: $color_1;
-		font-family: $font-family_1;
 		display: flex;
 		text-align: center;
 		justify-content: space-between;
 		align-items: center;
 		background-color: $background-color_2;
-		padding: 10px;
+		padding: 5px;
+		flex-wrap: wrap;
 	}
 	img {
 		width: 215.309px;
 		height: 80px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 	}
+}
+.menu2 {
+	margin: 20px;
+	color: $color_1;
+	font-family: $font-family_1;
 }
 .menu1 {
 	display: flex;
@@ -50,6 +51,7 @@ body {
 	justify-content: space-between;
 	text-align: center;
 	padding: 100px;
+	flex-wrap: wrap;
 }
 #gauche {
 	margin: 0%;
@@ -67,7 +69,6 @@ body {
 		background-color: $background-color_3;
 		border: 2px solid #433C87;
 		color: $color_1;
-		display: flex;
 		width: 204px;
 		height: 50px;
 		flex-direction: column;
@@ -91,10 +92,12 @@ body {
 	position: relative;
 	width: 700px;
 	height: 900px;
-	w justify-content: center;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border: 2px solid #433C87;
+}
+#icons {
+	padding-top: 43%;
 }
 #bouton {
 	margin: 150px;
@@ -105,6 +108,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	padding: 50px;
+	flex-wrap: wrap;
 }
 #bas {
 	border: 2px solid white;

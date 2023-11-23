@@ -1,59 +1,52 @@
 header {
     background-color: #242633;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }
   header #menu {
-    color: #FFF;
-    font-family: Bigelow Rules; 
     display: flex;
     text-align: center;
     justify-content: space-between;
     align-items: center;
     background-color: #10141B;
-
-    padding: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
   }
   header img {
     width: 215.309px;
     height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
   }
-  .menu1{
+  .menu2 {
+    margin: 20px;
+    color: #FFF;
+    font-family: 'Bigelow Rule' sans-serif;
+  }
+  .menu1 {
     display: flex;
     color: white;
     font-weight: 700;
-  
-    
   }
-
-  body{
+  body {
     background-image: url('../images/Ressources/Ressources/background.webp');
     color: #FFF;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     margin: 0;
   }
-
-  #main_container{
+  #main_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
     padding: 100px;
+    flex-wrap: wrap;
   }
-
-  #gauche{
+  #gauche {
     margin: 0%;
-    background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
+    background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0) 100%);
     position: relative;
     width: 563px;
     height: 752px;
@@ -63,72 +56,57 @@ header {
     text-align: center;
     padding: 20px;
   }
-
-#gauche button{
+  #gauche button {
     border-radius: 30px;
     background-color: #433C87;
     border: 2px solid #433C87;
     color: #FFF;
-    display: flex;
     width: 204px;
     height: 50px;
     flex-direction: column;
     justify-content: center;
- 
-}
-.rectangle{
+  }
+  .rectangle {
     padding: 50px;
-    
     text-align: center;
     font-family: Sofia Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-  #droite{
+  }
+  #droite {
     background-image: url('../images/Ressources/Ressources/losange.webp');
-    
-    background-size:100%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-
     position: relative;
     width: 700px;
-    height: 900px;w
-
-    
+    height: 900px;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    border: 2px solid #433C87;
-
-
-    
   }
-
-  #bouton{
+  #icons {
+    padding-top: 43%;
+  }
+  #bouton {
     margin: 150px;
   }
-  
-
-
-  footer{
+  footer {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-
+    flex-wrap: wrap;
   }
-  #bas{
+  #bas {
     border: 2px solid white;
     margin: 20px;
     align-items: center;
     text-align: center;
     justify-content: space-between;
     width: 90%;
-    
   }
+  
