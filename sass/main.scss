@@ -50,12 +50,13 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	text-align: center;
-	padding: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
 	flex-wrap: wrap;
 }
 #gauche {
 	margin: 0%;
-	background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
+	background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0) 100%);
 	position: relative;
 	width: 563px;
 	height: 752px;
@@ -98,6 +99,9 @@ body {
 }
 #icons {
 	padding-top: 43%;
+}
+#icons2 {
+	padding-left: 17%;
 }
 #bouton {
 	margin: 150px;
