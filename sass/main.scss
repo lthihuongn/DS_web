@@ -23,7 +23,6 @@ header {
 	img {
 		width: 215.309px;
 		height: 80px;
-		flex-shrink: 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -33,4 +32,18 @@ header {
 	display: flex;
 	color: $color_2;
 	font-weight: 700;
+}
+body {
+	background-image: url('../images/Ressources/Ressources/background.webp');
+	margin: 0;
+}
+#main_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	padding: 50px;
+}
+#losange {
+	background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
 }
