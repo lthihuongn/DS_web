@@ -3,6 +3,7 @@ $color_2: white;
 $font-family_1: Bigelow Rules;
 $background-color_1: #242633;
 $background-color_2: #10141B;
+$background-color_3: #433C87;
 
 header {
 	background-color: $background-color_1;
@@ -44,6 +45,33 @@ body {
 	text-align: center;
 	padding: 50px;
 }
-#losange {
+#gauche {
+	margin: 0%;
 	background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
+	position: relative;
+	width: 563px;
+	height: 752px;
+	flex-shrink: 0;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	button {
+		border-radius: 30px;
+		background-color: $background-color_3;
+		border: 2px solid #433C87;
+		color: $color_1;
+		display: flex;
+		width: 204px;
+		height: 50px;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+#droite {
+	background-image: url('../images/Ressources/Ressources/losange.webp');
+	margin-right: 20px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
